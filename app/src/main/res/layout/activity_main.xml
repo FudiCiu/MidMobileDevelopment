@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnVolumeKubus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume Kubus"
+        android:layout_above="@id/btnVolumeBalok"
+        android:layout_centerHorizontal="true"
+        android:onClick="BukaAktivityKubus"/>
+    <Button
+        android:id="@+id/btnVolumeBalok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume Balok"
+        android:layout_centerInParent="true"
+        android:onClick="BukaAktivityBalok"/>
+    <Button
+        android:id="@+id/btnVolumeBola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume Bola"
+        android:layout_below="@id/btnVolumeBalok"
+        android:layout_centerHorizontal="true"
+        android:onClick="BukaAktivityBola"/>
+
+</RelativeLayout>
